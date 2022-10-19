@@ -18,7 +18,7 @@ const Draw = () => {
   const confetti = document.querySelector('.confetti');
   for (let currentButton of button) {
     currentButton.addEventListener("click", function () {
-      currentButton.style.backgroundImage = "url('img/content/users/" + randomInteger(3, 7) + ".jpg')";
+      currentButton.style.backgroundImage = "url('img/content/users/" + randomInteger(4, 7) + ".jpg')";
       confetti.classList.remove('visually-hidden');
     });
   }
